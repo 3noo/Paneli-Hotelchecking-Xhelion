@@ -15,6 +15,7 @@
     <!-- End plugin css for this page -->
     <!-- inject:css -->
     <link rel="stylesheet" href="../../css/vertical-layout-light/style.css">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="../../css/style.css">
     <!-- endinject -->
     <link rel="shortcut icon" href="images/favicon.png"/>
@@ -37,7 +38,7 @@
 
         .dataTables_filter input {
             border: 1px solid #ddd;
-            padding: 10px 10px 10px 20px; /* Adjust padding for icon space */
+            padding: 10px 10px 10px 20px;
             border-radius: 5px;
             width: 100%;
             max-width: 300px;
@@ -57,14 +58,13 @@
             left: 20px;
             width: 16px;
             height: 16px;
-            fill: #aaa; /* Adjust color as needed */
+            fill: #aaa;
         }
 
         .dataTables_filter input {
-            padding-left: 40px; /* Adjust padding for icon space */
+            padding-left: 40px;
         }
 
-        /* Change input focus outline */
         .dataTables_filter input:focus {
             outline: none;
             border-color: #007bff;
@@ -75,272 +75,195 @@
             width: 38px;
         }
 
-        .\33 -1-t.d-flex {
-            flex-direction: column;
-        }
 
-        .\33 -1-t.d-flex {
-            flex-direction: column;
-            margin-left: 21px;
-        }
-
-        .title1 {
-            margin: 0px;
-            font-family: "Open Sans", Helvetica, Arial, sans-serif;
-            font-size: 0.875rem;
-            line-height: 1.5;
-            opacity: 1;
+        .card.card-trivago-prop .title1 {
+            color: #555;
+            font-weight: 600;
+            font-size: 0.8rem;
             text-transform: uppercase;
-            vertical-align: unset;
-            text-decoration: none;
-            color: #000000;
-            font-weight: 600;
+            margin-bottom: 2px;
         }
 
-        .title2 {
-            font-size: 1.25rem;
-            line-height: 1.375;
-            font-family: "Open Sans", Helvetica, Arial, sans-serif;
-            opacity: 1;
-            text-transform: none;
-            vertical-align: unset;
-            text-decoration: none;
-            color: #0089cc;
+        .card.card-trivago-prop .title2 {
+            color: #007bff;
             font-weight: 700;
+            font-size: 1.75rem;
+        }
+        .card.card-trivago-prop .icon-1-2-1 i {
+            font-size: 2.5rem;
+            color: #007bff;
+            margin-right: 15px;
+            opacity: 0.7;
         }
 
-        canvas {
-            border-radius: 20px;
-            --bg-opacity: 1;
-            border-width: 1px;
-            --border-opacity: 1;
-            border-color: #e2e8f0;
-            border-color: rgba(226, 232, 240, var(--border-opacity));
+
+        .card-title i {
+            margin-right: 8px;
+            color: #6c757d;
         }
 
-        .bad-review112 {
-            font-weight: 600;
-            font-size: 14px;
-            color: #1A1A1A;
-            padding-right: 0px !important;
+        .text-trivago-blue {
+            color: #0089cc;
         }
-
-        .bad-review {
-            font-weight: 600;
-            font-size: 14px;
-            color: #911a1a;
+        .text-trivago-green {
+            color: #4CAF50;
         }
-
-        .row.r_1_1 {
-            margin-top: 6px;
+        .font-weight-bold-large {
+            font-size: 2rem;
+            font-weight: 700;
+            line-height: 1.2;
         }
-
-        .c-1 {
-            width: 15%;
+        .text-muted-small {
+            font-size: 0.8rem;
+            color: #6c757d;
         }
-
-        .t-2-3-1 {
-            width: 65%;
+        .info-icon {
+            color: #6c757d;
+            font-size: 0.9rem;
+            cursor: pointer;
         }
-
-        .c-2-3-wqw {
+        .chart-placeholder {
+            height: 60px;
+            background-color: #f8f9fa;
+            border-radius: 4px;
             display: flex;
-        }
-
-        img.ikona-1-1- {
-            width: 50px;
-        }
-
-        .rating-box {
-            text-align: center;
-            display: grid;
-            -webkit-box-pack: center;
+            align-items: center;
             justify-content: center;
-            -webkit-box-align: center;
-            align-items: center;
-            width: 8rem;
-            height: 8rem;
-            opacity: 1;
-            background: linear-gradient(120deg, #e75829, #dc35454f);
-            color: rgb(255, 255, 255);
-            border-radius: 0.75rem;
-            box-shadow: rgba(20, 20, 20, 0.12) 0rem 0.25rem 0.375rem -0.0625rem, rgba(20, 20, 20, 0.07) 0rem 0.125rem 0.25rem -0.0625rem;
-        }
-
-        .rating-label {
-            font-weight: bold
-        }
-
-        .rating-bar {
-            width: 300px;
-            padding: 8px;
-            border-radius: 5px
-        }
-
-        .bar-container {
-            width: 100%;
-            background-color: #f1f1f1;
-            text-align: center;
-            color: white;
-            border-radius: 20px;
-            cursor: pointer;
-            margin-bottom: 5px
-        }
-
-        td {
-            padding-bottom: 10px
-        }
-
-        .star-active {
-            color: #ffcc85;
+            color: #adb5bd;
+            font-size: 0.8rem;
             margin-top: 10px;
-            margin-bottom: 10px
+            border: 1px dashed #dee2e6;
         }
-
-        .star-active:hover {
-            color: #F9A825;
-            cursor: pointer
+        .distribution-list {
+            list-style: none;
+            padding-left: 0;
+            font-size: 0.85rem;
+            margin-bottom: 0;
         }
-
-        .star-inactive {
-            color: #CFD8DC;
-            margin-top: 10px;
-            margin-bottom: 10px
-        }
-
-        a:hover {
-            color: white;
-            text-decoration: none !important;
-        }
-
-        a {
-            color: white;
-        }
-
-        .list-wrapper ul li .form-check {
-            max-width: 100%;
-        }
-
-        .list-wrapper ul li {
-
-            padding-right: 0.3rem !important;
-            padding-left: 0.3rem !important;
-        }
-
-        .todo-list-custom {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        .todo-list-custom li {
+        .distribution-list li {
+            margin-bottom: 5px;
             display: flex;
-            align-items: center;
             justify-content: space-between;
-            padding: 10px;
-            border-bottom: 1px solid #eee;
-            background-color: #fff;
-            margin-bottom: 10px;
-            border-radius: 5px;
+        }
+        .distribution-list .source {
+            font-weight: 500;
+        }
+        .distribution-list .percentage {
+            color: #6c757d;
         }
 
-        .todo-list-custom li.completed .task-desc {
-            text-decoration: line-through;
-            color: #aaa;
+        .performance-chart-container {
+            position: relative;
         }
-
-        .form-check {
+        .performance-chart-placeholder {
+            height: 300px;
+            background-color: #f8f9fa;
+            border-radius: 4px;
             display: flex;
             align-items: center;
-            width: 100%;
+            justify-content: center;
+            color: #adb5bd;
+            font-size: 1rem;
+            border: 1px solid #dee2e6;
         }
-
-        .form-check-label {
+        .chart-legend {
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            font-size: 0.85rem;
+        }
+        .legend-item {
             display: flex;
             align-items: center;
-            width: 100%;
-            cursor: pointer;
         }
-
-        .form-check-label .task-desc {
-            flex-grow: 1;
-            cursor: pointer;
+        .legend-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin-right: 5px;
         }
+        .legend-dot.blue { background-color: #0089cc; }
+        .legend-dot.green { background-color: #4CAF50; }
 
-        .todo-list-input {
-            flex-grow: 1;
+        .rating-index-circle {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #6dd5ed, #2193b0);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        }
+        .rating-index-score {
+            font-size: 2.5rem;
+            font-weight: 700;
+            line-height: 1;
+        }
+        .rating-index-based-on {
+            font-size: 0.8rem;
+            margin-top: 5px;
+        }
+        .rating-source {
+            font-size: 0.85rem;
+            color: #6c757d;
+            margin-top: 15px;
+            text-align: center;
+        }
+        .rating-source img {
+            height: 16px;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+        .rating-source span {
             margin-right: 10px;
         }
-
-        .btn-icon {
-            font-size: 20px;
+        .rating-info-box {
+            background-color: #e7f3ff;
+            border-radius: 5px;
+            padding: 15px;
+            font-size: 0.9rem;
+            color: #333;
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+        .rating-info-box a {
+            color: #0089cc;
+            font-weight: 600;
+            text-decoration: underline;
         }
 
-        .text-danger {
-            color: #dc3545;
+
+        .todo-list-custom { list-style-type: none; padding: 0; }
+        .todo-list-custom li { display: flex; align-items: center; justify-content: space-between; padding: 10px; border-bottom: 1px solid #eee; background-color: #fff; margin-bottom: 10px; border-radius: 5px; }
+        .todo-list-custom li.completed .task-desc { text-decoration: line-through; color: #aaa; }
+        .form-check { display: flex; align-items: center; width: 100%; }
+        .form-check-label { display: flex; align-items: center; width: 100%; cursor: pointer; }
+        .form-check-label .task-desc { flex-grow: 1; cursor: pointer; margin-left: 10px; }
+        .todo-list-input { flex-grow: 1; margin-right: 10px; }
+        .btn-icon { font-size: 20px; }
+        .text-danger { color: #dc3545 !important; }
+        .container { display: block; position: relative; padding-left: 35px; margin-top: 7px; cursor: pointer; font-size: 0.875rem; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; margin-bottom: 0; }
+        .container input { position: absolute; opacity: 0; cursor: pointer; height: 0; width: 0; }
+        .checkmark { position: absolute; top: 50%; left: 5px; transform: translateY(-50%); height: 18px; width: 18px; background-color: #fff; border: 2px solid #fb8540; transition-duration: 250ms; border-width: 2px; border-radius: 2px; }
+        .container input:checked ~ .checkmark { border-color: #fb8540; background-color: #fb8540; }
+        .checkmark:after { content: ""; position: absolute; display: none; }
+        .container input:checked ~ .checkmark:after { display: block; }
+        .container .checkmark:after { left: 5px; top: -4px; width: 7px; height: 18px; border: solid white; border-width: 0 2px 2px 0; transform: rotate(45deg); transition-duration: 250ms; font-size: .9375rem; font-family: themify; }
+
+        .row.match-height > [class*="col-"] {
+            display: flex;
+            flex-direction: column;
+        }
+        .row.match-height > [class*="col-"] > .card {
+            flex-grow: 1;
         }
 
-        .container {
-            display: block;
-            position: relative;
-            padding-left: 35px;
-            margin-top: 7px;
-            cursor: pointer;
-            font-size: 0.875rem;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-        }
-
-        .container input {
-            position: absolute;
-            opacity: 0;
-            cursor: pointer;
-            height: 0;
-            width: 0;
-        }
-
-        .checkmark {
-            position: absolute;
-            top: 50%;
-            left: 5px;
-            transform: translateY(-50%);
-            height: 18px;
-            width: 18px;
-            background-color: #fff;
-            border: 2px solid #fb8540;
-            transition-duration: 250ms;
-            border-width: 2px;
-            border-radius: 2px;
-        }
-
-        .container input:checked ~ .checkmark {
-            border-color: #fb8540;
-            background-color: #fb8540;
-        }
-
-        .checkmark:after {
-            content: "";
-            position: absolute;
-            display: none;
-        }
-
-        .container input:checked ~ .checkmark:after {
-            display: block;
-        }
-
-        .container .checkmark:after {
-            left: 5px;
-            top: -4px;
-            width: 7px;
-            height: 18px;
-            border: solid white;
-            border-width: 0 2px 2px 0;
-            transform: rotate(45deg);
-            transition-duration: 250ms;
-            font-size: .9375rem;
-            font-family: themify;
-        }
     </style>
 </head>
 
@@ -352,32 +275,24 @@
         <div class="main-panel">
             <div class="content-wrapper">
                 <div class="row">
-                    <div class="col-md-12 grid-margin">
-                        <div class="row">
-                            <div class="col-12 col-xl-8 mb-4 mb-xl-0">
-                                <h3 class="font-weight-bold mt-4"
-                                    style="font-size: 25px;color: #1A1A1A;line-height: 20px;font-weight: 700;position: relative;padding-top: 50px;">
+                    <div class="col-md-12 grid-margin mt-5">
+                        <div class="row mt-4">
+                            <div class="col-12 col-xl-7 mb-4 mb-xl-0">
+                                <h3 class="font-weight-bold pt-4" style="font-size: 25px;color: #1A1A1A;font-weight: 700;">
                                     [[#{client.Dashboard}]]
-                                    <label th:if="${property.getHotel_status().getStatus() == 'active'}"   th:class="${'badge badge-success'}" th:text="${'Open/Bookable'}" ></label>
-                                    <label th:class="${'badge badge-danger'}" th:if="${property.getHotel_status().getStatus() == 'Suspended'}" th:text="${'Closed/Not Bookable'}" ></label>
+                                    <label th:if="${property.getHotel_status().getStatus() == 'active'}"   th:class="${'badge badge-success ml-2'}" th:text="${'Open/Bookable'}" ></label>
+                                    <label th:class="${'badge badge-danger ml-2'}" th:if="${property.getHotel_status().getStatus() == 'Suspended'}" th:text="${'Closed/Not Bookable'}" ></label>
                                 </h3>
                             </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row" style="margin-bottom: -36px;">
-                    <div class="col-md-6 grid-margin transparent">
-                        <div class="row">
-                            <div class="col-md-6 mb-4 stretch-card transparent">
-                                <div class="card card-dark-blue test-card">
-                                    <div class="card-body d-flex">
+                            <div class="col-12 col-xl-5 mb-4 mb-xl-0">
+                                <div class="card card-trivago-prop">
+                                    <div class="card-body d-flex align-items-center">
                                         <div class="icon-1-2-1">
-                                            <img src="images/hotelikone.png" class="t-2w">
+                                            <i class="ti-home"></i>
                                         </div>
-                                        <div class="3-1-t d-flex">
+                                        <div class="d-flex flex-column">
                                             <div class="title1">[[#{client.Properties}]]</div>
-                                            <div class="title2" th:text="${propSize}"></div>
+                                            <div class="title2" th:text="${propSize ?: '1'}">1</div>
                                         </div>
                                     </div>
                                 </div>
@@ -386,147 +301,211 @@
                     </div>
                 </div>
 
-                <div class="row t-r-w-1" th:if="${not #maps.isEmpty(ratingPercentages)}">
-                    <div class="col-md-6 mb-3">
-                        <div class="card p-2"
-                             style="box-shadow: 0px 12px 16px -4px rgba(39, 45, 61, 0.08), 0px 4px 6px -2px rgba(39, 45, 61, 0.03); --bg-opacity: 1;border-width: 1px; --border-opacity: 1;border-color: #e2e8f0;border-color: rgba(226, 232, 240, var(--border-opacity));}">
-                            <div class="row justify-content-left d-flex">
-                                <div class="col-md-4 d-flex" style="padding: 15px;">
-                                    <div class="rating-box">
-                                        <h1 class="pt-4" th:text="${mes * 2 }"></h1>
-
+                <!-- Section: My Conversion Funnel -->
+                <div class="row mb-4">
+                    <div class="col-12">
+                        <h4 class="mb-3 font-weight-bold"><i class="ti-filter"></i> My conversion funnel <span class="text-muted font-weight-light ml-2">Last 90 days</span></h4>
+                    </div>
+                    <div class="col-md-7 grid-margin stretch-card">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <div class="row">
+                                    <!-- Impressions -->
+                                    <div class="col-md-6 mb-4 mb-md-0 border-right">
+                                        <h6 class="card-subtitle mb-1 text-muted">Impressions for my property <i class="ti-info-alt info-icon ml-1"></i></h6>
+                                        <p class="font-weight-bold-large text-trivago-blue mb-0">3,590</p>
+                                        <p class="text-trivago-green font-weight-bold mb-2">+416.55%</p>
+                                        <div class="chart-placeholder">Small Chart</div>
+                                        <p class="text-muted-small mt-2 mb-0">01/18 to 04/18</p>
                                     </div>
-                                    <div><span class="fa fa-star star-active mx-1"></span> <span
-                                            class="fa fa-star star-active mx-1"></span> <span
-                                            class="fa fa-star star-active mx-1"></span> <span
-                                            class="fa fa-star star-active mx-1"></span> <span
-                                            class="fa fa-star star-inactive mx-1"></span></div>
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="rating-bar0 justify-content-center">
-                                        <table class="text-left mx-auto">
-                                            <tr th:each="entry : ${ratingPercentages}">
-                                                <td class="rating-label">[[#{client.Rating + ${entry.key}}]]</td>
-                                                <td class="rating-bar">
-                                                    <div class="bar-container">
-                                                        <div th:class="'bar-' + ${entry.key}"
-                                                             th:style="'width: ' + ${entry.value} + '%'"></div>
-                                                    </div>
-                                                </td>
-                                                <td class="text-right">
-                                                    <script th:inline="javascript">
-                                                        /*<![CDATA[*/
-                                                        var value = /*[[${entry.value}]]*/ 0; // Fetch the value from Thymeleaf
-                                                        var formattedValue = (Math.round(value * 10) / 10).toFixed(1); // Format value to one decimal place
-                                                        document.write(formattedValue + '%'); // Write the formatted value with the percent sign
-                                                        /*]]>*/
-                                                    </script>
-                                                </td>
-                                            </tr>
-                                        </table>
+                                    <!-- Clicks -->
+                                    <div class="col-md-6">
+                                        <h6 class="card-subtitle mb-1 text-muted">Clicks on deals for my property <i class="ti-info-alt info-icon ml-1"></i></h6>
+                                        <p class="font-weight-bold-large text-trivago-blue mb-0">40</p>
+                                        <p class="text-trivago-green font-weight-bold mb-1">+1,900.00%</p>
+                                        <p class="text-muted-small mb-2">1.11% of 3,590</p>
+                                        <div class="chart-placeholder">Small Chart</div>
+                                        <p class="text-muted-small mt-2 mb-0">01/18 to 04/18</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 mb-3">
-                        <div class="card p-2 bg-holder p-x1 bg-card"
-                             style="box-shadow: 0px 12px 16px -4px rgba(39, 45, 61, 0.08), 0px 4px 6px -2px rgba(39, 45, 61, 0.03); overflow: auto; max-height: 185px; background: url(/images/corner-1.png) no-repeat center center; background-size: cover !important;">
-                            <div class="h-2-1" th:each="r : ${property.getReviewsTabList()}">
-                                <div class="c-2-3-wqw px-3 py-2 border-bottom">
-                                    <div class="c-1">
-                                        <img src="https://i.ibb.co/QbV7Fc9/review-2.png" class="ikona-1-1- img-fluid">
-                                    </div>
-                                    <div class="t-2-3-1">
-                                        <div class="row r_1_1 mb-2">
-                                            <div class="col bad-review112">
-                                                <span>[[#{client.GoodReview}]]</span><span
-                                                    th:text="${r.getGood_review()}"></span>
-                                            </div>
-                                        </div>
-                                        <div class="row r_1_1">
-                                            <div class="col bad-review">
-                                                <span>[[#{client.BadReview}]]</span><span
-                                                    th:text="${r.getBad_review()}"></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                    <div class="col-md-5 grid-margin stretch-card">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h6 class="card-subtitle mb-3 text-muted">Distribution of clicks</h6>
+                                <ul class="distribution-list">
+                                    <li>
+                                        <div><span class="font-weight-bold mr-2">18</span><span class="source">ZenHotels.com</span></div>
+                                        <span class="percentage">45% of 40</span>
+                                    </li>
+                                    <li>
+                                        <div><span class="font-weight-bold mr-2">11</span><span class="source">Hotels.com</span></div>
+                                        <span class="percentage">28% of 40</span>
+                                    </li>
+                                    <li>
+                                        <div><span class="font-weight-bold mr-2">8</span><span class="source">Allbookers.com</span></div>
+                                        <span class="percentage">20% of 40</span>
+                                    </li>
+                                    <li>
+                                        <div><span class="font-weight-bold mr-2">3</span><span class="source">Other sources</span></div>
+                                        <span class="percentage">8% of 40</span>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <section>
-                    <div class="row">
-                        <div class="col-md-4 grid-margin stretch-card">
-                            <div class="card" style="border-radius: 8px;">
-                                <div class="card-body" style="background-color: #fff3f28a;">
-                                    <h4 class="card-title">[[#{client.ToDoLists}]]</h4>
 
-                                    <!-- List wrapper -->
-                                    <div class="list-wrapper pt-2" style="display: block; flex-direction:column; height: 300px;scrollbar-width: none">
-                                        <div style="overflow-y: auto;">
-                                            <ul class="d-flex flex-column-reverse todo-list todo-list-custom">
-                                                <li th:each="todo : ${todos}" th:classappend="${todo.completed} ? 'completed'"
-                                                    style="border-radius: 4px; margin-bottom: 8px;">
-                                                    <div class="form-check form-check-flat d-flex justify-content-between">
-                                                        <label class="form-check-label d-flex align-items-center w-100 mb-0">
-                                                            <form th:action="@{/todos/{id}(id=${todo.id})}" method="post" class="d-inline w-100 toggle-form">
-                                                                <input type="hidden" name="_method" value="put"/>
-                                                                <input type="hidden" name="completed" th:value="|${not todo.completed}|"/>
-                                                                <label class="container">
-                                                                    <input class="checkbox" type="checkbox"
-                                                                           th:checked="${todo.completed}"
-                                                                           onchange="handleToggle(this, event)">
-                                                                    <span class="checkmark"></span>
-                                                                    <span class="task-desc ml-2" th:text="${todo.description}"></span>
-                                                                </label>
-                                                            </form>
-                                                        </label>
-                                                        <form th:action="@{/todos/{id}(id=${todo.id})}" method="post" class="d-inline delete-form">
-                                                            <input type="hidden" name="_method" value="delete"/>
-                                                            <button type="button" onclick="handleDelete(this, event)"
-                                                                    class="btn btn-icon text-danger">
-                                                                <i class="ti-close"></i>
-                                                            </button>
+                <!-- Section: My Performance  -->
+                <div class="row mb-4 match-height">
+                    <div class="col-lg-8 grid-margin stretch-card">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex flex-column flex-md-row align-items-start align-items-md-center mb-3">
+                                    <h4 class="card-title mb-3 mb-md-0 font-weight-bold"><i class="ti-pulse"></i> My performance on HotelsChecking</h4>
+
+                                    <div class="d-flex flex-wrap mt-2 mt-md-0 ml-md-auto">
+                                        <!-- Time Range Dropdown -->
+                                        <div class="dropdown mb-2 mr-2">
+                                            <button class="btn btn-outline-secondary dropdown-toggle btn-sm" type="button" id="performanceTimeRange" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                Last 90 days
+                                            </button>
+                                            <div class="dropdown-menu" aria-labelledby="performanceTimeRange">
+                                                <a class="dropdown-item" href="#">Last 30 days</a>
+                                                <a class="dropdown-item" href="#">Last 90 days</a>
+                                                <a class="dropdown-item" href="#">Last 6 months</a>
+                                            </div>
+                                        </div>
+
+                                        <!-- Granularity Buttons -->
+                                        <div class="btn-group btn-group-sm mb-2 mr-2" role="group" aria-label="Time Granularity">
+                                            <button type="button" class="btn btn-outline-primary active">Day</button>
+                                            <button type="button" class="btn btn-outline-primary">Week</button>
+                                            <button type="button" class="btn btn-outline-primary">Month</button>
+                                        </div>
+
+                                        <!-- Impressions Toggle -->
+                                        <div class="custom-control custom-switch mb-2">
+                                            <input type="checkbox" class="custom-control-input" id="impressionsToggle" checked>
+                                            <label class="custom-control-label" for="impressionsToggle">Impressions</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Chart Container -->
+                                <div class="performance-chart-container">
+                                    <canvas id="performanceChart" class="performance-chart-placeholder"></canvas>
+                                    <script>
+                                        document.getElementById('performanceChart').innerText = 'Main Performance Chart Area';
+                                    </script>
+                                </div>
+                                <!-- Legend -->
+                                <div class="chart-legend">
+                                    <div class="legend-item"><span class="legend-dot green"></span> Clicks on deals for my property</div>
+                                    <div class="legend-item"><span class="legend-dot blue"></span> Impressions for my property</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ToDo List Section -->
+                    <div class="col-lg-4 grid-margin stretch-card">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title"><i class="ti-check-box"></i> [[#{client.ToDoLists}]]</h4>
+                                <div class="list-wrapper pt-2" style="display: block; flex-direction:column; height: 300px; scrollbar-width: none;">
+                                    <div style="overflow-y: auto;">
+                                        <ul class="d-flex flex-column-reverse todo-list todo-list-custom">
+                                            <li th:each="todo : ${todos}" th:classappend="${todo.completed} ? 'completed'"
+                                                style="border-radius: 4px; margin-bottom: 8px; background-color: #fff;">
+                                                <div class="form-check form-check-flat d-flex justify-content-between">
+                                                    <label class="form-check-label d-flex align-items-center w-100 mb-0">
+                                                        <form th:action="@{/todos/{id}(id=${todo.id})}" method="post" class="d-inline w-100 toggle-form">
+                                                            <input type="hidden" name="_method" value="put"/>
+                                                            <input type="hidden" name="completed" th:value="|${not todo.completed}|"/>
+                                                            <label class="container mb-0">
+                                                                <input class="checkbox" type="checkbox"
+                                                                       th:checked="${todo.completed}"
+                                                                       onchange="handleToggle(this, event)">
+                                                                <span class="checkmark"></span>
+                                                                <span class="task-desc ml-2" th:text="${todo.description}"></span>
+                                                            </label>
                                                         </form>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
+                                                    </label>
+                                                    <form th:action="@{/todos/{id}(id=${todo.id})}" method="post" class="d-inline delete-form">
+                                                        <input type="hidden" name="_method" value="delete"/>
+                                                        <button type="button" onclick="handleDelete(this, event)"
+                                                                class="btn btn-icon text-danger p-0">
+                                                            <i class="ti-close"></i>
+                                                        </button>
+                                                    </form>
+                                                </div>
+                                            </li>
+                                            <li th:if="${#lists.isEmpty(todos)}" style="border: none; background: none; color: #6c757d; text-align: center;">No tasks yet.</li>
+                                        </ul>
                                     </div>
+                                </div>
 
-                                    <!-- Add form -->
-                                    <div class="add-items d-flex" style="margin-top: 20px;">
-                                        <form id="addTodoForm" method="post" action="/todos" class="d-flex w-100">
-                                            <input type="text" name="description" th:placeholder="#{Addnewtask}"
-                                                   class="form-control todo-list-input" required>
-                                            <input type="hidden" th:value="${property.getId()}" name="propertyId">
-                                            <button type="submit" class="btn btn-primary" style="margin-left: 10px;">[[#{client.Create}]]</button>
-                                        </form>
-                                    </div>
+                                <div class="add-items d-flex mt-5">
+                                    <form id="addTodoForm" method="post" action="/todos" class="d-flex w-100">
+                                        <input type="text" name="description" th:placeholder="#{Addnewtask}"
+                                               class="form-control todo-list-input" required>
+                                        <input type="hidden" th:value="${property.getId()}" name="propertyId">
+                                        <button type="submit" class="btn btn-primary btn-sm" style="margin-left: 10px;">[[#{client.Create}]]</button>
+                                    </form>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </section>
+                </div>
+
+                <div class="row mb-4 match-height">
+                    <div class="col-12 mb-3">
+                        <h4 class="font-weight-bold"><i class="ti-star"></i> HotelsChecking Rating Index</h4>
+                    </div>
+                    <div class="col-md-4 grid-margin stretch-card">
+                        <div class="card h-100">
+                            <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                                <div class="rating-index-circle mb-3">
+                                    <div class="rating-index-score">8.6</div>
+                                </div>
+                                <div class="rating-index-based-on font-weight-bold mb-2">Based on 232 ratings</div>
+                                <div class="rating-source">
+                                    <span><i class="ti-medall"></i> Allbookers.com <strong>9.4</strong></span>
+                                    <span><i class="ti-medall"></i> Hotels.com <strong>9.4</strong></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 grid-margin stretch-card">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <div class="rating-info-box">
+                                    <p>Your HotelsChecking Rating Index score is based on an aggregation of online ratings of your property. To see how travelers have rated your guest experience, click <a href="#">here</a>.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div th:replace="/ROLE_USER/Layouts/footerL"></div>
         </div>
     </div>
 </div>
 
-<!-- container-scroller -->
 <!-- plugins:js -->
 <script src="vendors/js/vendor.bundle.base.js"></script>
 <!-- endinject -->
+
 <!-- Plugin js for this page -->
 <script src="vendors/datatables.net/jquery.dataTables.js"></script>
 <script src="vendors/datatables.net-bs4/dataTables.bootstrap4.js"></script>
 <script src="js/dataTables.select.min.js"></script>
+<!-- Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <!-- End plugin js for this page -->
-<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
 <!-- inject:js -->
 <script src="js/off-canvas.js"></script>
 <script src="js/hoverable-collapse.js"></script>
@@ -534,177 +513,224 @@
 <script src="js/settings.js"></script>
 <script src="js/todolist.js"></script>
 
+<script src="js/dashboard.js"></script>
+
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 
 <script>
     function showToast(message, isError = false) {
-        Toastify({
-            text: message,
-            duration: 3000,
-            gravity: "top",
-            position: "right",
-            style: {
-                background: isError ? "#ff5252" : "#4caf50",
-            }
-        }).showToast();
+        Toastify({ text: message, duration: 3000, gravity: "top", position: "right", style: { background: isError ? "#ff5252" : "#4caf50", } }).showToast();
     }
 
     function setLoading(element, isLoading) {
-        if (isLoading) {
-            element.disabled = true;
-            element.style.opacity = '0.5';
-        } else {
-            element.disabled = false;
-            element.style.opacity = '1';
-        }
+        element.disabled = isLoading;
+        element.style.opacity = isLoading ? '0.5' : '1';
     }
 
     function handleToggle(checkbox, event) {
         if (checkbox.disabled) return;
-
-        // merr gjendjen e checkboxit
         const newCheckedState = checkbox.checked;
-
         setLoading(checkbox, true);
-
         const form = checkbox.closest('form');
-        fetch(form.action, {
-            method: 'POST',
-            body: new FormData(form)
-        }).then(response => {
-            if(response.ok) {
-                const li = checkbox.closest('li');
-                if (newCheckedState) {
-                    li.classList.add('completed');
+        fetch(form.action, { method: 'POST', body: new FormData(form) })
+            .then(response => {
+                if(response.ok) {
+                    const li = checkbox.closest('li');
+                    li.classList.toggle('completed', newCheckedState);
+                    showToast('Task status updated');
                 } else {
-                    li.classList.remove('completed');
+                    checkbox.checked = !newCheckedState;
+                    throw new Error('Failed to update todo');
                 }
-                showToast('Task status updated');
-            } else {
-                // If request fails, revert the checkbox
-                checkbox.checked = !newCheckedState;
-                throw new Error('Failed to update todo');
-            }
-        }).catch(error => {
+            }).catch(error => {
             showToast('Failed to update task status', true);
             checkbox.checked = !newCheckedState;
-        }).finally(() => {
-            setLoading(checkbox, false);
-        });
+        }).finally(() => setLoading(checkbox, false));
     }
 
+    // ToDo Delete function
     function handleDelete(button, event) {
         event.preventDefault();
         event.stopPropagation();
-
         if (button.disabled) return;
         setLoading(button, true);
-
         const form = button.closest('form');
-        fetch(form.action, {
-            method: 'POST',
-            body: new FormData(form)
-        }).then(response => {
-            if(response.ok) {
-                form.closest('li').remove();
-                showToast('Task deleted successfully');
-            } else {
-                throw new Error('Failed to delete todo');
-            }
-        }).catch(error => {
-            showToast('Failed to delete task', true);
-        }).finally(() => {
-            setLoading(button, false);
+        fetch(form.action, { method: 'POST', body: new FormData(form) })
+            .then(response => {
+                if(response.ok) {
+                    form.closest('li').remove();
+                    showToast('Task deleted successfully');
+                } else { throw new Error('Failed to delete todo'); }
+            }).catch(error => showToast('Failed to delete task', true))
+            .finally(() => setLoading(button, false));
+    }
+
+    function changeLanguageController(param) {
+        var currentFullUrl = window.location.href;
+        $.ajax({
+            type: "POST", url: "/changeLanguage", data: { lang: param },
+            success: function (result) { window.location.href = currentFullUrl; },
+            error: function (e) { window.location = '/error.' + param + '.html'; }
         });
     }
 
+    // ToDo Add Logic
     document.addEventListener('DOMContentLoaded', function() {
         const addForm = document.getElementById('addTodoForm');
+        if (addForm) {
+            addForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                const submitButton = this.querySelector('button[type="submit"]');
+                if (submitButton.disabled) return;
 
-        addForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            const submitButton = this.querySelector('button[type="submit"]');
-            if (submitButton.disabled) return;
+                setLoading(submitButton, true);
+                const formData = new FormData(this);
+                const descriptionInput = this.querySelector('input[name="description"]');
+                const description = descriptionInput.value.trim();
 
-            setLoading(submitButton, true);
-            const formData = new FormData(this);
-            const description = this.querySelector('input[name="description"]').value;
+                if (!description) {
+                    showToast('Task description cannot be empty', true);
+                    setLoading(submitButton, false);
+                    descriptionInput.focus();
+                    return;
+                }
 
-            fetch(this.action, {
-                method: 'POST',
-                body: formData
-            }).then(response => {
-                if(!response.ok) throw new Error('Failed to create todo');
-                return response.json();
-            }).then(data => {
-                const list = document.querySelector('.todo-list-custom');
-                const newTodo = `
-                                            <li style="border-radius: 4px; margin-bottom: 8px;">
-                                                <div class="form-check form-check-flat d-flex justify-content-between">
-                                                    <label class="form-check-label d-flex align-items-center w-100 mb-0">
-                                                        <form action="/todos/${data.id}" method="post" class="d-inline w-100 toggle-form">
-                                                            <input type="hidden" name="_method" value="put"/>
-                                                            <input type="hidden" name="completed" value="false"/>
-                                                            <label class="container">
-                                                                <input class="checkbox" type="checkbox"
-                                                                       onchange="handleToggle(this, event)">
-                                                                <span class="checkmark"></span>
-                                                                <span class="task-desc ml-2">${description}</span>
-                                                            </label>
-                                                        </form>
-                                                    </label>
-                                                    <form action="/todos/${data.id}" method="post" class="d-inline delete-form">
-                                                        <input type="hidden" name="_method" value="delete"/>
-                                                        <button type="button" onclick="handleDelete(this, event)"
-                                                                class="btn btn-icon text-danger">
-                                                            <i class="ti-close"></i>
-                                                        </button>
-                                                    </form>
-                                                </div>
-                                            </li>
-                                        `;
-                list.insertAdjacentHTML('afterbegin', newTodo);
-                this.reset();
-                showToast('Task added successfully');
-            }).catch(error => {
-                showToast('Failed to add task', true);
-            }).finally(() => {
-                setLoading(submitButton, false);
+                fetch(this.action, { method: 'POST', body: formData })
+                    .then(response => {
+                        if (!response.ok) throw new Error('Failed to create todo');
+                        const contentType = response.headers.get("content-type");
+                        if (contentType && contentType.indexOf("application/json") !== -1) {
+                            return response.json();
+                        } else {
+                            return { id: 'temp-' + Date.now(), description: description };
+                        }
+                    })
+                    .then(data => {
+                        const list = document.querySelector('.todo-list-custom');
+                        const scrollContainer = list.closest('div[style*="overflow-y: auto"]');
+
+                        const placeholder = list.querySelector('li[th\\:if]');
+                        if (placeholder) placeholder.remove();
+
+                        const newTodoHTML = `
+                    <li style="border-radius: 4px; margin-bottom: 8px; background-color: #fff;">
+                        <div class="form-check form-check-flat d-flex justify-content-between">
+                            <label class="form-check-label d-flex align-items-center w-100 mb-0">
+                                <form action="/todos/${data.id}" method="post" class="d-inline w-100 toggle-form">
+                                    <input type="hidden" name="_method" value="put"/>
+                                    <input type="hidden" name="completed" value="false"/>
+                                    <label class="container mb-0">
+                                        <input class="checkbox" type="checkbox" onchange="handleToggle(this, event)">
+                                        <span class="checkmark"></span>
+                                        <span class="task-desc ml-2">${document.createTextNode(description).textContent}</span>
+                                    </label>
+                                </form>
+                            </label>
+                            <form action="/todos/${data.id}" method="post" class="d-inline delete-form">
+                                <input type="hidden" name="_method" value="delete"/>
+                                <button type="button" onclick="handleDelete(this, event)" class="btn btn-icon text-danger p-0">
+                                    <i class="ti-close"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </li>`;
+
+                        list.insertAdjacentHTML('beforeend', newTodoHTML);
+
+                        if (scrollContainer) {
+                            scrollContainer.scrollTop = 0;
+                        }
+
+                        this.reset();
+                        showToast('Task added successfully');
+                    }).catch(error => {
+                    console.error("Add task error:", error);
+                    showToast('Failed to add task: ' + error.message, true);
+                }).finally(() => {
+                    setLoading(submitButton, false);
+                });
             });
-        });
-    });
-</script>
+        }
 
-<!-- endinject -->
-<!-- Custom js for this page-->
-<script src="js/dashboard.js"></script>
-<!-- Custom js for chart-->
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        function initCharts() {
 
-<script>
-    function changeLanguageController(param) {
-        //ky index.html kthehet nga dy GET te ndryshem , per te bere rederirectin pas ndryshimit te gjuhes , marrim url ku jemi
-        var currentFullUrl = window.location.href;
+            // Main Performance Chart
+            const ctxPerf = document.getElementById('performanceChart');
+            if (ctxPerf) {
+                const labels = ['Jan 20', 'Jan 27', 'Feb 03', 'Feb 10', 'Feb 17', 'Feb 24', 'Mar 03', 'Mar 10', 'Mar 17', 'Mar 24', 'Mar 31', 'Apr 07', 'Apr 14'];
+                const impressionsData = [45, 25, 35, 15, 280, 150, 180, 110, 80, 40, 55, 30, 100, 60, 140, 10];
+                const clicksData = [5, 2, 4, 1, 15, 8, 10, 6, 4, 2, 3, 2, 8, 5, 9, 1];
 
-        $.ajax({
-            type: "POST",
-            url: "/changeLanguage",
-            data: {
-                lang: param
-            },
-            success: function (result) {
-                // Redirect to the exact same full URL
-                window.location.href = currentFullUrl;
-            },
-            error: function (e) {
-                window.location = '/error.' + param + '.html';
+                new Chart(ctxPerf.getContext('2d'), {
+                    type: 'line',
+                    data: {
+                        labels: labels,
+                        datasets: [
+                            {
+                                label: 'Impressions for my property',
+                                data: impressionsData,
+                                borderColor: '#0089cc',
+                                backgroundColor: 'rgba(0, 137, 204, 0.1)',
+                                borderWidth: 2,
+                                pointBackgroundColor: '#0089cc',
+                                tension: 0.3,
+                                fill: false
+                            },
+                            {
+                                label: 'Clicks on deals for my property',
+                                data: clicksData,
+                                borderColor: '#4CAF50',
+                                backgroundColor: 'rgba(76, 175, 80, 0.1)',
+                                borderWidth: 2,
+                                pointBackgroundColor: '#4CAF50',
+                                tension: 0.3,
+                                fill: false
+                            }
+                        ]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        scales: {
+                            y: {
+                                beginAtZero: true,
+                                suggestedMax: 300
+                            },
+                            x: {
+                                grid: {
+                                    display: false
+                                }
+                            }
+                        },
+                        plugins: {
+                            legend: {
+                                display: false
+                            }
+                        },
+                        interaction: {
+                            intersect: false,
+                            mode: 'index',
+                        },
+                    }
+                });
+                ctxPerf.innerText = '';
+                ctxPerf.style.backgroundColor = 'transparent';
+                ctxPerf.style.border = 'none';
+
+            } else {
+                console.warn("Performance chart canvas not found");
             }
-        });
-    }
+        }
+
+        initCharts(); // Call chart initialization
+    });
+
 </script>
-<input type="hidden" id="idd" th:value="${property.getId()}" >
-<input type="hidden" id="nipt" th:value="${property.getNUIS()}" >
-<input type="hidden" id="idcard" th:value="${property.getHotelierId()  }" >
+
+<input type="hidden" id="idd" th:value="${property?.getId()}" >
+<input type="hidden" id="nipt" th:value="${property?.getNUIS()}" >
+<input type="hidden" id="idcard" th:value="${property?.getHotelierId()}" >
+
 </body>
 </html>
